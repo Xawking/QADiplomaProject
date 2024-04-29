@@ -3,6 +3,7 @@
  HELP.md
  .gradle
  build/
+ .bin/
 
 
  ### STS ###
