@@ -16,6 +16,9 @@ services:
       - '3306:3306'
     environment:
       - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=mysql
+      - MYSQL_USER=app
+      - MYSQL_PASSWORD=pass
   node-app:
     build: ./
     image: node-app:1.0
